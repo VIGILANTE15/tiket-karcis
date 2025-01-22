@@ -5,12 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 
 public class ParkingView extends JFrame {
-    private JTextField vehicleNumberField;
-    private JComboBox<String> transportTypeComboBox;
-    private JButton generateTicketButton;
-    private JButton calculateFeeButton;
-    private JButton listTicketsButton;
-    private JTextArea resultArea;
+    JTextField vehicleNumberField;
+    JComboBox<String> transportTypeComboBox;
+    JButton generateTicketButton;
+    JButton calculateFeeButton;
+    JButton listTicketsButton;
+    JTextArea resultArea;
 
     public ParkingView() {
         setTitle("Parking Ticket System");
