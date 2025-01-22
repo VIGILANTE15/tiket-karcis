@@ -4,16 +4,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ParkingTicket {
-    private String ticketId;
-    private Transportasi transportasi;
-    private long entryTime;
-    private long exitTime;
-    private double parkingRate = 2000;
+    String ticketId;
+    Transportasi transportasi;
+    long entryTime;
+    long exitTime;
+    double parkingRate = 2000;
 
     public ParkingTicket(int ticketNumber, Transportasi transportasi) {
         this.ticketId = "TKT" + ticketNumber;
         this.transportasi = transportasi;
-        this.entryTime = System.currentTimeMillis();
+        this.entryTime = entryTime;
     }
 
     public String getTicketId() {
