@@ -13,9 +13,9 @@ import models.Mobil;
 import models.Motor;
 
 public class ParkingController {
-    private ParkingView view;
-    private Map<String, ParkingTicket> tickets;
-    private int ticketCounter = 1;
+    ParkingView view;
+    Map<String, ParkingTicket> tickets;
+    int ticketCounter = 1;
 
     public ParkingController(ParkingView view) {
         this.view = view;
